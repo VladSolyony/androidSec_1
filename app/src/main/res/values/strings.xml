@@ -23,9 +23,11 @@
     <string name="welcome_message_authed">Hi %1$s! Did you know that %2$s.</string>
     <string name="login_prompt">Login to set customizations!</string>
     <string name="login_btn">Login</string>
+    <string name="safe_zone_button">Safe Zone</string>
+    <string name="go_back_button">Go Back</string>
     <string name="settings_btn">Settings</string>
     <string name="settings_fact_type_title">Fun Fact Type</string>
-
+    <string name="zone_name">Welcome to Safe Zone!</string>
     <string name="fact_type_android">Android</string>
     <string name="fact_type_california">California</string>
 

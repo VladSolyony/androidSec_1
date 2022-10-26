@@ -16,13 +16,26 @@
 
 package com.example.android.firebaseui_login_sample
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import androidx.navigation.NavController
+import androidx.navigation.Navigation
+import android.view.View
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var navController: NavController
+    private lateinit var safeZoneButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val safeZoneButton = findViewById<Button>(R.id.safe_zone_button)
+        safeZoneButton.setOnClickListener {
+            val Intent = Intent( this,SafeZoneActivity::class.java)
+            startActivity(Intent)
+        }
     }
 }
